@@ -1,0 +1,131 @@
+body {
+
+ 	   font-family: 'MPLUS', serif;
+
+	background-color: #7f7f7f;
+}
+@font-face {
+    font-family: 'MPLUS';
+    font-weight: 400;
+    src: url("MPLUS1Code-Regular.ttf") format("truetype");
+}
+
+:root {
+  --a-text: #224acf;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --a-text: #224acf;
+  }
+}
+
+a {
+	text-decoration: none;
+	color: var(--a-text);
+	transition: 0.5s;
+}
+a:hover {
+	color: #4f76f7;
+}
+video {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #000000;
+  background: #f2f2f2;
+  border-radius: 4px;
+  box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), inset 0 -2px 0 rgba(0, 0, 0, 0.05);
+  font-weight: bold;
+  border: solid 2px #000000;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+	width: 100%;
+	background: #6495ed;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+button:active {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 100);
+}
+:root {
+  --main-text: #333;
+  --main-bg: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-text: #f7f7f7;
+    --main-bg: #1f1f1f;
+  }
+}
+div.main {
+  box-shadow: 0px 0px 20px black;
+  padding: 10px; 
+  margin-bottom: 10px;
+  border: 1px solid #333333; 
+  border-radius: 10px;
+  width: 60%;
+  color: var(--main-text);
+  background-color: var(--main-bg);
+  transition: .5s;
+  min-width: 200px;
+}
+:root {
+  --child-text: #333;
+  --child-bg: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --child-text: #f7f7f7;
+    --child-bg: #1f1f1f;
+  }
+}
+div.child {
+  padding: 10px; 
+  margin-bottom: 10px;
+  border: 1px solid #7f7f7f; 
+  border-radius: 10px;
+  background-color:#ffffff;
+  background-color: var(--child-bg);
+  transition: .5s;
+}
+:root {
+  --input-text: #000;
+  --input-bg: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+  --input-text: #fff;
+  --input-bg: #000;
+  }
+}
+input[type='text'] {
+	background-color: var(--input-bg);
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: var(--input-text);
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+  	transition: .5s;
+}
+input[type='text']:focus {
+	border: 1px solid #0008ff;
+	outline: none;
+	box-shadow: 0 0 5px 1px rgba(218,60,65, .5);
+}
