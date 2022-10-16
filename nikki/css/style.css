@@ -1,0 +1,24 @@
+header {
+	background: no-repeat left/cover url(../../Image/Card.png);
+    display: flex;
+    height: 120px;
+    width: 100%;
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 1.0em;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+	text: #474747;
+}
+p {
+	font-size: 18px;
+}
+img {
+	width: 50%;
+	min-width: 200px;
+}
+pre {
+	color: black;
+}
