@@ -17,7 +17,7 @@
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title">ホーム</span>
+      <span class="mdl-layout-title" id="time">Javascriptは無効です</span>
       <!-- Add spacer, to align navigation to the right -->
       <div class="mdl-layout-spacer"><div class="mdl-spinner mdl-js-spinner is-active" id="loading"></div>
 </div>
@@ -26,7 +26,7 @@
         <a class="mdl-navigation__link" href="#" onclick="load_newtab('https://scratch.mit.edu/users/tomokun2011')">Scratch</a>
         <a class="mdl-navigation__link" href="#" onclick="load_thistab('nikki/index.html')">日記</a>
         <a class="mdl-navigation__link" href="#" onclick="load_thistab('downloads.html')">ダウンロード</a>
-        <span id="time">Javascriptが無効です</span>
+        <a class="mdl-navigation__link" href="#" onclick="load_thistab('friendcode.html')">募集</a>
       </nav>
     </div>
   </header>
@@ -35,61 +35,24 @@
     <nav class="mdl-navigation">
         <a class="mdl-navigation__link" href="#" onclick="load_newtab('https://scratch.mit.edu/users/tomokun2011')">Scratch</a>
         <a class="mdl-navigation__link" href="#" onclick="load_thistab('nikki/index.html')">日記</a>
-        <a class="mdl-navigation__link" href="#" onclick="load_thistab('downloads.html')">ダウンロード</a>
+        <a class="mdl-navigation__link" href="#" onclick="load_thistab('friendcode.html')">募集</a>
     </nav>
   </div>
   <main class="mdl-layout__content">
     <div class="page-content">
     <div class="center-div">	
 <p id="disable_javascript">このサイトはjavascriptが実行できないブラウザでは動作しません</p>
-
-<table width="100%">
- <tr>
-  <th width="80%"><h1>ようこそ</h1>
+<h1>ようこそ</h1>
 
   		<p>Javascriptは意外とC#に似てて簡単(舐)</p>
-  </th>
-  <th width="20%">
-  	<a href="status.html">
-  		<div style="width: 100%;">
-  			<h4>ステータス(クリックで詳細)</h4>
-  			<p>プログラミング</p>
-  			<div id="status1" class="mdl-progress mdl-js-progress" style="width: 100%"></div>
-  			<p>学習</p>
-  			<div id="status2" class="mdl-progress mdl-js-progress" style="width: 100%"></div>
-  			 <p>足の速さ(学年、50m 7.6秒)</p>
-  			<div id="status3" class="mdl-progress mdl-js-progress" style="width: 100%"></div>
-  			  <p>運動</p>
-  			<div id="status4" class="mdl-progress mdl-js-progress" style="width: 100%"></div>
-  		</div>
-  	</th>
-  </a>
- </tr>
-
-</table>
 
 
 
-</div>
-    </div>
-  </main>
-</div>
 
+
+  </div></div></main>
 
 </body>
-	<script>
-  	document.querySelector('#status1').addEventListener('mdl-componentupgraded', function() {
-    this.MaterialProgress.setProgress(70);
- 	 });
-  	  	document.querySelector('#status2').addEventListener('mdl-componentupgraded', function() {
-    this.MaterialProgress.setProgress(45);
- 	 });
-  	  	  	  	document.querySelector('#status3').addEventListener('mdl-componentupgraded', function() {
-    this.MaterialProgress.setProgress(95);
- 	 });
-  	  	  	  	  	  	  	  	document.querySelector('#status4').addEventListener('mdl-componentupgraded', function() {
-    this.MaterialProgress.setProgress(75);
- 	 });
-</script>
+
 <script>document.getElementById("disable_javascript").style.display = "none";</script>
 </html>
