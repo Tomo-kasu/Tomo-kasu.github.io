@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -13,11 +13,12 @@
 	<title>HP</title>
 </head>
 <body>
+
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title" id="time">Javascriptは無効です</span>
+      <span class="mdl-layout-title" id="time"></span>
       <!-- Add spacer, to align navigation to the right -->
       <div class="mdl-layout-spacer"><div class="mdl-spinner mdl-js-spinner is-active" id="loading"></div>
 </div>
@@ -34,7 +35,7 @@
     <span class="mdl-layout-title">メニュー</span>
     <nav class="mdl-navigation">
         <a class="mdl-navigation__link" href="#" onclick="load_newtab('https://scratch.mit.edu/users/tomokun2011')">Scratch</a>
-	    <a class="mdl-navigation__link" href="#" onclick="load_thistab('nikki/index.html')">日記</a>
+        <a class="mdl-navigation__link" href="#" onclick="load_thistab('nikki/index.html')">日記</a>
         <a class="mdl-navigation__link" href="#" onclick="load_thistab('downloads.html')">ダウンロード</a>
         <a class="mdl-navigation__link" href="#" onclick="load_thistab('friendcode.html')">募集</a>
     </nav>
@@ -43,9 +44,9 @@
     <div class="page-content">
     <div class="center-div">	
 <p id="disable_javascript">このサイトはjavascriptが実行できないブラウザでは動作しません</p>
-<h1>ようこそ</h1>
-
-  		<p>Javascriptは意外とC#に似てて簡単(舐)</p>
+<h1>クソ仮サイト</h1>
+<img src="Image/bu-ingu.png" onclick="omochaplay()">
+  		<p>誰か.netドメインくだちい(企業じゃないんで.comは使わない)</p>
 
 
 
@@ -54,6 +55,8 @@
   </div></div></main>
 
 </body>
+<script>
+  document.getElementById("disable_javascript").style.display = "none";
 
-<script>document.getElementById("disable_javascript").style.display = "none";</script>
+</script>
 </html>
