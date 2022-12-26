@@ -14,3 +14,11 @@ img {
 	width: 80%;
 	max-width: 1000px;
 }
+fieldset.item {
+	border: 1px solid #000000;
+	padding: 10px;"	
+}
+legend.item {
+	border: 1px solid #000000;
+	padding: 2px 8px;
+}
