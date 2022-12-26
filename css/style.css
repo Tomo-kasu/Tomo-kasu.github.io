@@ -17,8 +17,10 @@ img {
 fieldset.item {
 	border: 1px solid #000000;
 	padding: 10px;	
+	font-size: 20px;
 }
 legend.item {
 	border: 1px solid #000000;
 	padding: 2px 8px;
+	font-size: 14px;
 }
