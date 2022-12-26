@@ -18,6 +18,7 @@ fieldset.item {
 	border: 1px solid #000000;
 	padding: 10px;	
 	font-size: 20px;
+	width: fit-content;
 }
 legend.item {
 	border: 1px solid #000000;
