@@ -13,7 +13,11 @@ function clock(){
 	var realtime = new Date();
 	var realhour = realtime.getHours();
 	var realminutes = realtime.getMinutes();
-	var clocktime = realhour + ":" + realminutes;
+	if(realminutes.length == 2){
+		var clocktime = realhour + ":" + realminutes;
+	}else{
+		var clocktime = realhour + ":0" + realminutes;
+	}
 	document.getElementById("time").innerHTML = clocktime;
 	setInterval('clock()',10);
 
