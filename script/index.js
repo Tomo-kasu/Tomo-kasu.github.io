@@ -1,4 +1,4 @@
-window.onload = function(){
+function loaded(){
 	document.getElementById("loading").style.display = "none";
 }
 function load_newtab(url){
