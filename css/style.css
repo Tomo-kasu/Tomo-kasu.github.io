@@ -13,6 +13,9 @@ a {
 p {
 	line-height: 30px;
 }
+div.page-content{
+	padding 10px 10px 10px 10px;
+}
 div.blogcontent {
 	width: 48%;
 	min-width: 350px;
