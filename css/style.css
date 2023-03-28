@@ -10,6 +10,11 @@ table.full {_
 a {
 	text-decoration: none;
 }
+div.blogcontent {
+	width: 48%;
+	min-width: 350px;
+	padding: 10px;
+}
 img {
 	width: 80%;
 	max-width: 1000px;
