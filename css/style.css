@@ -1,5 +1,5 @@
-div.center-div {
-	padding: 10px 10px;
+div.content {
+	padding: 10px 10px 10x 10px;
 }
 tr.full {_
 	width: 100%;
@@ -13,9 +13,7 @@ a {
 p {
 	line-height: 30px;
 }
-div.page-content{
-	padding 10px 10px 10px 10px;
-}
+
 div.blogcontent {
 	width: 48%;
 	min-width: 350px;
